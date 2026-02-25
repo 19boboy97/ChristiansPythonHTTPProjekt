@@ -1,9 +1,9 @@
 import argparse
 
-from commands.title import run as run_title
-from commands.get import run as run_get
-from commands.post import run as run_post
-from commands.cookies import run as run_cookies
+from src.commands.title import run as run_title
+from src.commands.get import run as run_get
+from src.commands.post import run as run_post
+from src.commands.cookies import run as run_cookies
 
 DEFAULT_URL = "https://example.com"
 
